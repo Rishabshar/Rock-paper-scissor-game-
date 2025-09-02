@@ -1,5 +1,5 @@
 
-/* 1. Base and fonts */
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
 * {
   margin: 0;
@@ -9,7 +9,7 @@
   text-align: center;
 }
 
-/* 2. Page layout */
+
 body {
   min-height: 100vh;
   display: flex;
@@ -27,7 +27,7 @@ h1 {
   letter-spacing: 1px;
 }
 
-/* 3. Choices container */
+
 .choices {
   display: flex;
   justify-content: center;
@@ -52,7 +52,7 @@ h1 {
   cursor: pointer;
 }
 
-/* 4. Images inside circles */
+
 .choice img {
   height: 140px;
   width: 140px;
@@ -64,7 +64,7 @@ h1 {
   transform: scale(0.95);
 }
 
-/* 5. Scoreboard styling */
+
 .score-board {
   display: flex;
   justify-content: center;
@@ -79,7 +79,7 @@ h1 {
   box-shadow: inset 0 2px 5px rgba(0,0,0,0.5);
 }
 
-/* 6. Message container */
+
 .msg-container {
   margin-top: 2rem;
 }
@@ -93,7 +93,7 @@ h1 {
   animation: fadeIn 0.5s ease-out;
 }
 
-/* 7. Animations */
+
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
   to   { opacity: 1; transform: translateY(0); }
@@ -112,14 +112,14 @@ button {
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-/* Hover effect */
+
 button:hover {
   background: linear-gradient(135deg, #66BB6A, #388E3C);
   transform: translateY(-2px);
   box-shadow: 0 6px 12px rgba(0,0,0,0.3);
 }
 
-/* Click effect */
+
 button:active {
   transform: scale(0.97);
   box-shadow: 0 3px 6px rgba(0,0,0,0.2);
@@ -127,3 +127,4 @@ button:active {
 
 
  
+
